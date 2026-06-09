@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+h3 {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #1f2937;
+  margin: 25px 0 15px;
+}
+
+.input-section {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.input-section input {
+  width: 200px;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-section input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.button-section button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-section button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.cache-container {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  min-height: 70px;
+  padding: 15px;
+  background: #f9fafb;
+  border: 2px dashed #d1d5db;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.cache-item {
+  background: #2563eb;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  min-width: 80px;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(37, 99, 235, 0.25);
+}
+
+p {
+  margin-top: 10px;
+  color: #6b7280;
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+ul li {
+  background: #f3f4f6;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-left: 4px solid #2563eb;
+  border-radius: 6px;
+  color: #374151;
+}
+
+.empty-cache {
+  color: #9ca3af;
+  font-style: italic;
+}
